@@ -9,7 +9,7 @@ Create Touch Bars for your routes right in the templates.
 ```hbs
 {{#touch-bar as |controls|}}
     {{controls.button label='Hello World' on-click=(action 'popupHelloWorld')}}
-    {{controls.buttom image='/path/to/image.png' on-click=(action 'showBiggerImage')}}
+    {{controls.button image='/path/to/image.png' on-click=(action 'showBiggerImage')}}
     {{controls.color-picker on-change=(action 'blendColor')}}
     {{#controls.pop-over label='Pop Over' show-close-button=true as |controls|}}
         {{#controls.group as |controls|}}

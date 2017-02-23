@@ -1,4 +1,6 @@
 {{yield (hash
-          button=(component 'touch-bar/button')
-          slider=(component 'touch-bar/slider')
+          button=(component 'touch-bar/button' _parent=_controlGroup)
+          slider=(component 'touch-bar/slider' _parent=_controlGroup)
+          label=(component 'touch-bar/label' _parent=_controlGroup)
+          color-picker=(component 'touch-bar/color-picker' _parent=_controlGroup)
         )}}

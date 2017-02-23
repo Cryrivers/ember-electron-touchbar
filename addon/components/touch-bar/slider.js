@@ -1,5 +1,5 @@
-import Ember from 'ember';
+import TouchBarItem from './-item';
 
-export default Ember.Component.extend({
+export default TouchBarItem.extend({
   tagName: ''
 });
